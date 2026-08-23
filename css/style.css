@@ -2,6 +2,27 @@ body {
     background-color: green;
 }
 
+.water-brush-regular {
+  font-family: "Water Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lora-heading {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.dm-sans-text {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 nav {
     
 }
@@ -10,11 +31,30 @@ nav {
     background-image: url(/images/lilypad-pond.webp);
 }
 
-section {
-    background-color: lightgreen;
+h1 {
+    font-family: "Water Brush", cursive;
+    font-weight: 800;
+    font-style: normal;
 }
 
-h1, h2, p {
+h2, h3 {
+    font-family: "Lora", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section {
+    background-color: lightgreen;
+    padding: 5px 10px;
+}
+
+h1, h2, h3, p {
     color: rgb(69, 59, 4);
 }
 
