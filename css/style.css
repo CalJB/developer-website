@@ -1,72 +1,78 @@
 body {
-    background-color: green;
-}
-
-.water-brush-regular {
-  font-family: "Water Brush", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.lora-heading {
-  font-family: "Lora", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
-.dm-sans-text {
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    background-color: rgb(100, 119, 1);
 }
 
 nav {
-    
+    background-color: rgb(31, 57, 64);
+    /*width height etc*/
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+    font-family: "DM Sans", Sans-Serif;
+    font-size: 22px;
 }
 
 .hero {
     background-image: url(/images/lilypad-pond.webp);
+    width: 100%;
+    text-align: center;
 }
 
 h1 {
     font-family: "Water Brush", cursive;
-    font-weight: 800;
+    font-size: 75px;
+    font-weight: normal;
     font-style: normal;
+    color: rgb(31, 57, 64);
 }
+
+
+.hero p {
+    font-size: 25px;
+    color:rgb(31, 57, 64);
+    width: 75%;
+    text-align: center;
+    
+}
+/*add section to style hero paragraphs
+they are not centered properly grr*/
 
 h2, h3 {
     font-family: "Lora", serif;
     font-weight: 600;
     font-style: normal;
+    font-optical-sizing: auto;
+    color: rgb(31, 57, 64);
 }
 
 p {
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-optical-sizing: auto;
+    color: rgb(100, 119, 1);
 }
 
 section {
-    background-color: lightgreen;
+    background-color: rgb(223, 242, 220);
     padding: 5px 10px;
-}
-
-h1, h2, h3, p {
-    color: rgb(69, 59, 4);
 }
 
 a:link {
     text-decoration: none;
-    color:rgb(136, 116, 7)
+    color:rgb(198, 151, 34);
 }
 
 a:hover {
-    color: rgb(149, 149, 3);
+    color: rgb(250, 224, 103);
 }
 
 a:visited {
-    color: rgb(69, 49, 2);
+    color: rgb(31, 57, 64);
 }
